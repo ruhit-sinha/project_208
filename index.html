@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>project2</title>
+	<link href="src/output.css" rel="stylesheet">
+	<script src="src/script.js" defer></script>
+</head>
+<body>
+    <header class="relative min-h-screen overflow-hidden bg-[#cfc0ff]">
+
+        <!-- ================= BACKGROUND ================= -->
+
+        <div class="absolute w-[500px] h-[500px]
+            rounded-full
+            bg-gradient-to-br from-pink-300/80 to-pink-400/40
+            top-12 left-[38%]">
+        </div>
+
+        <div class="absolute w-[650px] h-[420px]
+            rounded-[50%]
+            bg-pink-300/50
+            -rotate-12
+            -left-40
+            bottom-[-180px]">
+        </div>
+
+        <div class="absolute w-[220px] h-[220px]
+            rounded-full
+            bg-purple-400/20
+            -left-20 top-[35%]">
+        </div>
+
+        <div class="absolute w-[400px] h-[390px]
+            rounded-tl-[120px]
+            rounded-br-[120px]
+            bg-gradient-to-b from-purple-300
+            via-blue-300 to-cyan-400
+            top-[170px] left-[43%]">
+        </div>
+
+        <div class="absolute w-[150px] h-[150px]
+            rounded-full
+            bg-gradient-to-br from-yellow-300 to-orange-500
+            top-[-25px] right-[12%]">
+        </div>
+
+        <div class="absolute w-[350px] h-[500px]
+            rounded-[50%]
+            rotate-[-25deg]
+            bg-purple-400/20
+            right-[-120px] bottom-[-150px]">
+        </div>
+
+
+        <!-- ================= CONTENT ================= -->
+
+        <div class="relative z-10 max-w-7xl mx-auto px-6 py-10">
+
+            <!-- Logo -->
+            <h2 class="text-2xl font-semibold text-indigo-950">
+                Your<span class="font-bold">Logo</span>
+            </h2>
+
+
+            <!-- Main layout -->
+            <div class="grid md:grid-cols-2 items-center min-h-[80vh]">
+
+                <!-- LEFT -->
+                <div class="max-w-xl">
+
+                    <h1 class="text-5xl md:text-6xl font-bold
+                        leading-tight text-indigo-950">
+                        Title of My
+                        <br>
+                        Webinar
+                    </h1>
+
+                    <p class="mt-8 text-lg text-indigo-900/80">
+                        A free seminar on about your product.
+                        How it help to solve clients problems.
+                    </p>
+
+                    <ul class="mt-6 space-y-3 text-indigo-950">
+                        <li>• about your product</li>
+                        <li>• about your product</li>
+                    </ul>
+
+                    <p class="mt-8 text-lg text-indigo-950">
+                        Let's meet on
+                        <span class="bg-white/40 px-2 py-1">
+                            <span class="text-pink-500 font-bold">
+                                February 12
+                            </span>
+                            at 6.30 pm
+                        </span>
+                    </p>
+
+                    <div class="flex items-center gap-8 mt-10">
+
+                        <button
+                            class="px-10 py-4
+                            rounded-lg
+                            bg-purple-600
+                            text-white
+                            font-semibold
+                            shadow-lg
+                            hover:bg-purple-700
+                            duration-500
+                            transition-all
+                            hover:scale-105 cursor-pointer">
+                            Register Now!
+                        </button>
+
+                        <a href="#"
+                            class="text-xl font-medium
+                            text-indigo-950
+                            border-b-2 border-indigo-950
+                            pb-2">
+                            Read more
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT -->
+                <div class="relative h-[800px]">
+
+                    <!-- Image -->
+                    <img
+                        src="assets/images/image1.jpg"
+                        class="absolute bottom-0 md:right-10
+                        h-[700px] object-contain z-20"
+                        alt="Presenter">
+
+                    <!-- Speech bubble -->
+                    <div class="absolute top-[360px] z-30
+                        right-0 w-50 h-42 md:top-[299px]
+                        md:w-64 md:h-52
+                        bg-white
+                        rounded-tl-[10px]
+                        rounded-tr-[100px]
+                        rounded-br-[100px]
+                        rounded-bl-[100px]
+                        flex items-center justify-center
+                        shadow-lg">
+
+                        <h2 class="text-3xl font-bold text-indigo-950">
+                            Hi, I'm
+                            <br>
+                            Antonio!
+                        </h2>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+    <!--1st section-->
+    <section
+        id="stats"
+        class="w-full py-16 bg-white"
+    >
+        <div class="max-w-6xl mx-auto px-6">
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
+
+                <!-- 1 -->
+                <div>
+                    <h2
+                        class="counter text-4xl md:text-5xl font-bold text-indigo-950"
+                        data-target="200"
+                        data-prefix="+"
+                    >
+                        +0
+                    </h2>
+
+                    <p class="mt-3 text-sm font-semibold text-gray-500 uppercase">
+                        Colleges
+                    </p>
+                </div>
+
+
+                <!-- 2 -->
+                <div>
+                    <h2
+                        class="counter text-4xl md:text-5xl font-bold text-indigo-950"
+                        data-target="15"
+                        data-prefix="+"
+                    >
+                        +0
+                    </h2>
+
+                    <p class="mt-3 text-sm font-semibold text-gray-500 uppercase">
+                        Thousand<br>
+                        Followers
+                    </p>
+                </div>
+
+
+                <!-- 3 -->
+                <div>
+                    <h2
+                        class="counter text-4xl md:text-5xl font-bold text-indigo-950"
+                        data-target="10"
+                    >
+                        0
+                    </h2>
+
+                    <p class="mt-3 text-sm font-semibold text-gray-500 uppercase">
+                        Years<br>
+                        Experience
+                    </p>
+                </div>
+
+
+                <!-- 4 -->
+                <div>
+                    <h2
+                        class="counter text-4xl md:text-5xl font-bold text-indigo-950"
+                        data-target="200"
+                    >
+                        0
+                    </h2>
+
+                    <p class="mt-3 text-sm font-semibold text-gray-500 uppercase">
+                        Projects
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+<!--2nd section-->
+    <section class="max-w-6xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center justify-between gap-10 font-sans">
+
+      <div class="w-full md:w-1/2 flex flex-col items-start space-y-6">
+        <div class="w-12 h-1 bg-purple-500 rounded-full"></div>
+
+        <h2 class="text-3xl md:text-4xl font-bold text-slate-800 tracking-tight">
+          A few words About My Work
+        </h2>
+
+        <p class="text-slate-500 leading-relaxed text-sm md:text-base">
+          A few words about your product/offer. Focus on the benefits not the features.
+          Explain how your product will improve your customer's life. A few words about
+          your product/offer. Focus on the benefits not the features. Explain how your
+          product will improve your customer's life.
+        </p>
+
+        <button class="bg-purple-600 hover:bg-purple-700 text-white font-medium px-6 py-3 rounded-md transition-all shadow-md">
+          Register Now!
+        </button>
+      </div>
+
+      <div class="w-full md:w-1/2 flex flex-col items-end space-y-6">
+        <div class="w-full overflow-hidden rounded-lg shadow-lg">
+          <img
+            src="assets/images/image2.jpg"
+            alt="Work Showcase"
+            class="w-full h-auto object-cover"
+          />
+        </div>
+
+        <div class="flex items-center space-x-4 pt-2">
+          <span class="text-purple-600 font-medium text-sm bg-purple-50 px-3 py-1 rounded">
+            Follow me on:
+          </span>
+          <a href="#" class="text-slate-600 hover:text-purple-600 transition-colors">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H7.5v-3H10V9.5C10 7.01 11.49 5.6 13.78 5.6c1.1 0 2.25.2 2.25.2v2.47h-1.27c-1.23 0-1.62.77-1.62 1.56V12h2.78l-.44 3h-2.34v6.8c4.56-.93 8-4.96 8-9.8z"/></svg>
+          </a>
+          <a href="#" class="text-slate-600 hover:text-purple-600 transition-colors">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.7a1.64 1.64 0 1 0 0 3.28 1.64 1.64 0 0 0 0-3.28z"/></svg>
+          </a>
+          <a href="#" class="text-slate-600 hover:text-purple-600 transition-colors">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+     <div class="w-20 h-1 bg-purple-500 rounded-full mx-auto mt-10"></div>
+
+    <!--3rd section-->
+
+    <section class="max-w-6xl mx-auto px-6 py-16 text-center font-sans">
+
+      <h2 class="text-3xl font-bold text-slate-800 mb-12">
+        Strong Point About Your Webinar
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+        <div class="flex flex-col items-center text-center">
+          <div class="relative mb-6">
+            <span class="absolute -top-1 left-0 text-xs font-semibold text-slate-400 bg-white px-1">1</span>
+            <div class="w-24 h-24 rounded-full bg-white shadow-xl shadow-slate-200/60 flex items-center justify-center duration-500 transition-all hover:scale-110 cursor-pointer">
+              <svg class="w-10 h-10 text-orange-400 fill-current" viewBox="0 0 24 24">
+                <path d="M7 14c-1.66 0-3 1.34-3 3 0 1.31-1.16 2-2 2 .92 1.22 2.49 2 4 2 2.21 0 4-1.79 4-4 0-1.66-1.34-3-3-3zm13.71-9.37l-1.34-1.34a.996.996 0 0 0-1.41 0L9 12.25 11.75 15l9.96-9.96c.39-.39.39-1.02 0-1.41z"/>
+              </svg>
+            </div>
+          </div>
+          <h3 class="text-lg font-bold text-slate-800 mb-2">Strong Point 1</h3>
+          <p class="text-slate-500 text-sm leading-relaxed max-w-xs">
+            A few words about your product/offer. Focus on the benefits not the features. Explain how your product will improve your customer's life.
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center text-center">
+          <div class="relative mb-6">
+            <span class="absolute -top-1 left-0 text-xs font-semibold text-slate-400 bg-white px-1">2</span>
+            <div class="w-24 h-24 rounded-full bg-white shadow-xl shadow-slate-200/60 flex items-center justify-center duration-500 transition-all hover:scale-110 cursor-pointer">
+              <svg class="w-10 h-10 text-purple-600 fill-current" viewBox="0 0 24 24">
+                <path d="M9.19 6.35c-2.04 2.29-3.44 5.08-4.09 8.05l2.5 2.5c2.97-.65 5.76-2.05 8.05-4.09l-6.46-6.46zM13.17 4l7.07 7.07c1.39-3.92.51-8.5-2.83-11.84-3.34-3.34-7.92-4.22-11.84-2.83L13.17 4zM2.5 21.5c1.38 0 2.5-1.12 2.5-2.5s-1.12-2.5-2.5-2.5S0 17.62 0 19s1.12 2.5 2.5 2.5z"/>
+              </svg>
+            </div>
+          </div>
+          <h3 class="text-lg font-bold text-slate-800 mb-2">Strong Point 2</h3>
+          <p class="text-slate-500 text-sm leading-relaxed max-w-xs">
+            A few words about your product/offer. Focus on the benefits not the features. Explain how your product will improve your customer's life.
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center text-center">
+          <div class="relative mb-6">
+            <span class="absolute -top-1 left-0 text-xs font-semibold text-slate-400 bg-white px-1">3</span>
+            <div class="w-24 h-24 rounded-full bg-white shadow-xl shadow-slate-200/60 flex items-center justify-center duration-500 transition-all hover:scale-110 cursor-pointer">
+              <svg class="w-10 h-10 text-cyan-400 fill-current" viewBox="0 0 24 24">
+                <path d="M20 5H4c-1.1 0-1.99.9-1.99 2L2 17c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm-9 3h2v2h-2V8zm0 3h2v2h-2v-2zM8 8h2v2H8V8zm0 3h2v2H8v-2zm-1 5H5v-2h2v2zm0-3H5v-2h2v2zm0-3H5V8h2v2zm9 7H8v-2h8v2zm0-3h-2v-2h2v2zm0-3h-2V8h2v2zm3 6h-2v-2h2v2zm0-3h-2v-2h2v2zm0-3h-2V8h2v2z"/>
+              </svg>
+            </div>
+          </div>
+          <h3 class="text-lg font-bold text-slate-800 mb-2">Strong Point 3</h3>
+          <p class="text-slate-500 text-sm leading-relaxed max-w-xs">
+            A few words about your product/offer. Focus on the benefits not the features. Explain how your product will improve your customer's life.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--4th section-->
+    <section class="relative w-full py-20 px-4 bg-[#e5d5f7] overflow-hidden font-sans flex justify-center items-center min-h-[400px]">
+
+      <!-- BACKGROUND GEOMETRIC SHAPES & GRADIENTS -->
+      <div class="absolute inset-0 pointer-events-none overflow-hidden">
+        <!-- Left Bottom Soft Purple Circle -->
+        <div class="absolute -bottom-20 -left-20 w-80 h-80 rounded-full bg-gradient-to-tr from-purple-400/50 to-pink-300/40 blur-2xl"></div>
+
+        <!-- Left Center White/Pastel Glow -->
+        <div class="absolute top-1/2 left-10 -translate-y-1/2 w-72 h-72 rounded-full bg-white/60 blur-xl"></div>
+
+        <!-- Right Bottom Blue Shadow Block -->
+        <div class="absolute -bottom-10 right-10 w-96 h-60 bg-gradient-to-t from-blue-300/50 to-indigo-200/30 rounded-t-full blur-xl"></div>
+
+        <!-- Soft Top Right Purple Gradient Layer -->
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-purple-300/40 to-transparent"></div>
+      </div>
+
+      <!-- CENTER WARM GRADIENT CARD CONTAINER -->
+      <div class="relative w-full max-w-2xl bg-gradient-to-r from-orange-200/90 via-amber-200/80 to-amber-300/80 rounded-xl p-8 md:p-10 text-center shadow-sm z-10">
+
+        <!-- Top-Right 3D Pink Ball Accent -->
+        <div class="absolute -top-4 -right-4 w-10 h-10 rounded-full bg-gradient-to-br from-pink-300 via-pink-400 to-rose-400 shadow-md"></div>
+
+        <!-- Title -->
+        <h3 class="text-slate-800 font-semibold text-lg md:text-xl mb-6">
+          The webinar will start in:
+        </h3>
+
+        <!-- Countdown Timer Circles -->
+        <div class="flex justify-center items-center gap-4 md:gap-6 mb-8">
+
+          <!-- Days -->
+          <div class="flex flex-col items-center">
+            <div class="w-14 h-14 md:w-16 md:h-16 rounded-full bg-[#201d48] text-white flex items-center justify-center font-bold text-lg md:text-xl shadow-lg">
+              00
+            </div>
+            <span class="text-xs text-slate-700 mt-2 font-medium">Days</span>
+          </div>
+
+          <!-- Hours -->
+          <div class="flex flex-col items-center">
+            <div class="w-14 h-14 md:w-16 md:h-16 rounded-full bg-[#201d48] text-white flex items-center justify-center font-bold text-lg md:text-xl shadow-lg">
+              00
+            </div>
+            <span class="text-xs text-slate-700 mt-2 font-medium">Hours</span>
+          </div>
+
+          <!-- Minutes -->
+          <div class="flex flex-col items-center">
+            <div class="w-14 h-14 md:w-16 md:h-16 rounded-full bg-[#201d48] text-white flex items-center justify-center font-bold text-lg md:text-xl shadow-lg">
+              00
+            </div>
+            <span class="text-xs text-slate-700 mt-2 font-medium">Minutes</span>
+          </div>
+
+          <!-- Seconds -->
+          <div class="flex flex-col items-center">
+            <div class="w-14 h-14 md:w-16 md:h-16 rounded-full bg-[#201d48] text-white flex items-center justify-center font-bold text-lg md:text-xl shadow-lg">
+              00
+            </div>
+            <span class="text-xs text-slate-700 mt-2 font-medium">Seconds</span>
+          </div>
+
+        </div>
+
+        <!-- CTA Button -->
+        <button class="bg-[#8b5cf6] hover:bg-[#7c3aed] text-white text-sm font-medium px-8 py-2.5 rounded-md transition-all shadow-md active:scale-95 duration-500 hover:scale-105 cursor-pointer">
+          Register Now!
+        </button>
+      </div>
+    </section>
+
+    <!--5th section-->
+    <section class="mt-10">
+      <div class="mx-auto">
+          <div class="bg-purple-600 w-24 rounded-full h-1.5 mx-auto"></div>
+          <h1 class="text-center mt-7">Dedicate recivers group</h1>
+      </div>
+      <div class="flex flex-col md:flex-row md:mt-10 gap-8 justify-evenly items-center">
+
+          <!-- Students -->
+          <div class="text-center md:w-1/7">
+
+              <img
+                  src="assets/images/student.jpg"
+                  alt="Logo"
+                  class="w-48 h-48 md:w-64 md:h-64
+                         object-cover rounded-full mx-auto"
+              >
+
+              <h1 class="text-center">Students</h1>
+
+              <p>
+                  You can tailor your summary further by looking at the company website
+                  and social media profiles to determine its values, mission, and culture.
+              </p>
+
+          </div>
+
+
+          <!-- Teachers -->
+          <div class="text-center md:w-1/7">
+
+              <img
+                  src="assets/images/oldman.jpg"
+                  alt="Logo"
+                  class="w-48 h-48 md:w-64 md:h-64
+                         object-cover rounded-full mx-auto"
+              >
+
+              <h1 class="text-center">Teachers</h1>
+
+              <p>
+                  10 years of professional experience in language training.
+                  Certified English as a Second/Foreign language teacher.
+              </p>
+
+          </div>
+
+
+          <!-- IIT Employees -->
+          <div class="text-center md:w-1/7">
+
+              <img
+                  src="assets/images/man.jpg"
+                  alt="Logo"
+                  class="w-48 h-48 md:w-64 md:h-64
+                         object-cover rounded-full mx-auto"
+              >
+
+              <h1 class="text-center">IIT employes</h1>
+
+              <p>
+                  Based on the available data for IIT Bombay, IIT Hyderabad,
+                  and general Indian Institute of Technology (IIT) institutions,
+                  employee compensation.
+              </p>
+
+          </div>
+
+      </div>
+      <div class="bg-purple-600 w-24 rounded-full h-1.5 mx-auto mt-20"></div>
+    </section>
+    <!--6th section-->
+    <section class="w-full bg-white py-16 px-6">
+
+        <!-- Heading -->
+        <div class="max-w-5xl mx-auto text-center mb-12">
+
+            <h2 class="text-4xl md:text-5xl font-bold text-indigo-950">
+                What will you learn?
+            </h2>
+
+            <p class="mt-4 text-lg text-slate-500 font-medium">
+                A supporting statement for your value proposition to encourage customers
+                <br class="hidden md:block">
+                to complete your CTA
+            </p>
+
+        </div>
+
+
+        <!-- Content -->
+        <div class="max-w-6xl mx-auto space-y-7">
+
+
+            <!-- Card 1 -->
+            <div class="border border-indigo-100 rounded-2xl p-6 md:p-7
+                        flex flex-col md:flex-row gap-6
+                        hover:shadow-md transition duration-300">
+
+                <!-- Number -->
+                <div class="w-28 h-28 shrink-0 rounded-2xl
+                            bg-gradient-to-br from-blue-50 to-purple-100
+                            flex items-center justify-center">
+
+                    <span class="text-5xl font-medium text-indigo-800">
+                        1
+                    </span>
+
+                </div>
+
+
+                <!-- Text -->
+                <div>
+
+                    <h3 class="text-xl md:text-2xl font-bold text-indigo-950 leading-tight">
+                        A supporting statement for your value proposition to encourage
+                        customers to complete your CTA
+                    </h3>
+
+                    <p class="mt-3 text-base md:text-lg text-slate-500 leading-relaxed">
+                        A few words about your product/service. Focus on the benefit
+                        not the features. Explain how your product will improve your
+                        customer's life. A few words about your product/service.
+                        Focus on the benefit, not the features. Explain how your
+                        product will improve your customer's life.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Card 2 -->
+            <div class="border border-indigo-100 rounded-2xl p-6 md:p-7
+                        flex flex-col md:flex-row gap-6
+                        hover:shadow-md transition duration-300">
+
+                <!-- Number -->
+                <div class="w-28 h-28 shrink-0 rounded-2xl
+                            bg-gradient-to-br from-blue-50 to-purple-100
+                            flex items-center justify-center">
+
+                    <span class="text-5xl font-medium text-indigo-800">
+                        2
+                    </span>
+
+                </div>
+
+
+                <!-- Text -->
+                <div>
+
+                    <h3 class="text-xl md:text-2xl font-bold text-indigo-950 leading-tight">
+                        A supporting statement for your value proposition to encourage
+                        customers to complete your CTA
+                    </h3>
+
+                    <p class="mt-3 text-base md:text-lg text-slate-500 leading-relaxed">
+                        A few words about your product/service. Focus on the benefit
+                        not the features. Explain how your product will improve your
+                        customer's life. A few words about your product/service.
+                        Focus on the benefit, not the features. Explain how your
+                        product will improve your customer's life.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Card 3 -->
+            <div class="border border-indigo-100 rounded-2xl p-6 md:p-7
+                        flex flex-col md:flex-row gap-6
+                        hover:shadow-md transition duration-300">
+
+                <!-- Number -->
+                <div class="w-28 h-28 shrink-0 rounded-2xl
+                            bg-gradient-to-br from-blue-50 to-purple-100
+                            flex items-center justify-center">
+
+                    <span class="text-5xl font-medium text-indigo-800">
+                        3
+                    </span>
+
+                </div>
+
+
+                <!-- Text -->
+                <div>
+
+                    <h3 class="text-xl md:text-2xl font-bold text-indigo-950 leading-tight">
+                        A supporting statement for your value proposition to encourage
+                        customers to complete your CTA
+                    </h3>
+
+                    <p class="mt-3 text-base md:text-lg text-slate-500 leading-relaxed">
+                        A few words about your product/service. Focus on the benefit
+                        not the features. Explain how your product will improve your
+                        customer's life. A few words about your product/service.
+                        Focus on the benefit, not the features. Explain how your
+                        product will improve your customer's life.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- Card 4 -->
+            <div class="border border-indigo-100 rounded-2xl p-6 md:p-7
+                        flex flex-col md:flex-row gap-6
+                        hover:shadow-md transition duration-300">
+
+                <!-- Number -->
+                <div class="w-28 h-28 shrink-0 rounded-2xl
+                            bg-gradient-to-br from-blue-50 to-purple-100
+                            flex items-center justify-center">
+
+                    <span class="text-5xl font-medium text-indigo-800">
+                        4
+                    </span>
+
+                </div>
+
+
+                <!-- Text -->
+                <div>
+
+                    <h3 class="text-xl md:text-2xl font-bold text-indigo-950 leading-tight">
+                        A supporting statement for your value proposition to encourage
+                        customers to complete your CTA
+                    </h3>
+
+                    <p class="mt-3 text-base md:text-lg text-slate-500 leading-relaxed">
+                        A few words about your product/service. Focus on the benefit
+                        not the features. Explain how your product will improve your
+                        customer's life. A few words about your product/service.
+                        Focus on the benefit, not the features. Explain how your
+                        product will improve your customer's life.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="mt-10 bg-purple-600 w-fit mx-auto rounded p-1">
+        <button type="button" class="text-white px-4 py-2 rounded-full">Register Now</button>
+    </div>
+<!--7th section-->
+    <section class="relative min-h-screen overflow-hidden bg-[#faf9ff] py-16 px-5">
+
+        <!-- Background Decorations -->
+        <div class="absolute -left-20 top-20 w-72 h-72 rounded-full
+                    bg-purple-100/40 blur-3xl"></div>
+
+        <div class="absolute -right-20 top-96 w-80 h-80 rounded-full
+                    bg-blue-100/40 blur-3xl"></div>
+
+        <div class="absolute -left-20 bottom-0 w-72 h-72 rounded-full
+                    bg-pink-100/40 blur-3xl"></div>
+
+
+        <!-- Heading -->
+        <div class="relative z-10 text-center mb-14">
+
+            <!-- Small Line -->
+            <div class="mx-auto mb-4 w-14 h-1 rounded-full
+                        bg-gradient-to-r from-indigo-500 to-pink-400">
+            </div>
+
+            <h2 class="text-3xl md:text-4xl font-bold text-indigo-950">
+                Social Proof
+            </h2>
+
+        </div>
+
+
+        <!-- Testimonials -->
+        <div class="relative z-10 max-w-4xl mx-auto space-y-12">
+
+
+            <!-- ================= CARD 1 ================= -->
+            <div class="relative flex justify-start">
+
+                <!-- Card -->
+                <div class="relative w-full md:w-[78%] min-h-[150px]
+                            bg-white rounded-[60px]
+                            shadow-[0_10px_35px_rgba(80,70,150,0.12)]
+                            border border-white
+                            flex items-center
+                            pl-5 pr-8 py-5">
+
+                    <!-- Profile Image -->
+                    <div class="relative shrink-0">
+
+                        <div class="w-28 h-28 md:w-32 md:h-32
+                                    rounded-full overflow-hidden
+                                    bg-orange-200
+                                    border-8 border-white
+                                    shadow-lg">
+
+                            <img
+                                src="assets/images/em1.jpg"
+                                alt="John Smith"
+                                class="w-full h-full object-cover"
+                            >
+
+                        </div>
+
+                        <!-- Bubble -->
+                        <div class="absolute -top-1 -left-3
+                                    w-7 h-7 rounded-full
+                                    bg-gradient-to-br from-cyan-300 to-blue-400
+                                    shadow-md">
+                        </div>
+
+                    </div>
+
+
+                    <!-- Text -->
+                    <div class="ml-5 md:ml-7">
+
+                        <p class="text-xs md:text-sm
+                                  text-slate-500
+                                  leading-relaxed">
+
+                            A few words about your product/service. Focus on
+                            the benefit not the features. Explain how your
+                            product will improve your customer's life. A few
+                            words about your product/service.
+
+                        </p>
+
+                        <h3 class="mt-3 text-xs md:text-sm
+                                   font-bold text-indigo-950">
+
+                            John Smith
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= CARD 2 ================= -->
+            <div class="relative flex justify-end">
+
+                <div class="relative w-full md:w-[78%] min-h-[150px]
+                            bg-white rounded-[60px]
+                            shadow-[0_10px_35px_rgba(80,70,150,0.12)]
+                            border border-white
+                            flex items-center
+                            pl-8 pr-5 py-5">
+
+                    <!-- Text -->
+                    <div class="mr-5 md:mr-7">
+
+                        <p class="text-xs md:text-sm
+                                  text-slate-500
+                                  leading-relaxed">
+
+                            A few words about your product/service. Focus on
+                            the benefit not the features. Explain how your
+                            product will improve your customer's life. A few
+                            words about your product/service.
+
+                        </p>
+
+                        <h3 class="mt-3 text-xs md:text-sm
+                                   font-bold text-indigo-950">
+
+                            Amanda Baker
+
+                        </h3>
+
+                    </div>
+
+
+                    <!-- Profile -->
+                    <div class="relative shrink-0">
+
+                        <div class="w-28 h-28 md:w-32 md:h-32
+                                    rounded-full overflow-hidden
+                                    bg-gray-200
+                                    border-8 border-white
+                                    shadow-lg">
+
+                            <img
+                                src="assets/images/em2.jpg"
+                                alt="Amanda Baker"
+                                class="w-full h-full object-cover"
+                            >
+
+                        </div>
+
+                        <!-- Pink Bubble -->
+                        <div class="absolute -bottom-1 -left-2
+                                    w-8 h-8 rounded-full
+                                    bg-gradient-to-br from-pink-300 to-pink-400
+                                    shadow-md">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= CARD 3 ================= -->
+            <div class="relative flex justify-start">
+
+                <div class="relative w-full md:w-[78%] min-h-[150px]
+                            bg-white rounded-[60px]
+                            shadow-[0_10px_35px_rgba(80,70,150,0.12)]
+                            border border-white
+                            flex items-center
+                            pl-5 pr-8 py-5">
+
+                    <!-- Profile -->
+                    <div class="relative shrink-0">
+
+                        <div class="w-28 h-28 md:w-32 md:h-32
+                                    rounded-full overflow-hidden
+                                    bg-pink-200
+                                    border-8 border-white
+                                    shadow-lg">
+
+                            <img
+                                src="assets/images/em3.jpg"
+                                alt="Michael Weiner"
+                                class="w-full h-full object-cover"
+                            >
+
+                        </div>
+
+
+                        <!-- Cyan Bubble -->
+                        <div class="absolute -top-1 -left-3
+                                    w-7 h-7 rounded-full
+                                    bg-gradient-to-br from-cyan-300 to-blue-400
+                                    shadow-md">
+                        </div>
+
+
+                        <!-- Purple Bubble -->
+                        <div class="absolute -bottom-2 right-0
+                                    w-8 h-8 rounded-full
+                                    bg-gradient-to-br from-purple-400 to-indigo-500
+                                    shadow-md">
+                        </div>
+
+                    </div>
+
+
+                    <!-- Text -->
+                    <div class="ml-5 md:ml-7">
+
+                        <p class="text-xs md:text-sm
+                                  text-slate-500
+                                  leading-relaxed">
+
+                            A few words about your product/service. Focus on
+                            the benefit not the features. Explain how your
+                            product will improve your customer's life. A few
+                            words about your product/service.
+
+                        </p>
+
+                        <h3 class="mt-3 text-xs md:text-sm
+                                   font-bold text-indigo-950">
+
+                            Michael Weiner
+
+                        </h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--8th section-->
+    <section class="relative min-h-[800px] overflow-hidden bg-[#e9d9ff] py-10">
+
+        <!-- ================= BACKGROUND SHAPES ================= -->
+
+        <!-- Top Left Pink Circle -->
+        <div
+            class="absolute -left-20 -top-20
+                   w-[350px] h-[350px]
+                   rounded-full
+                   bg-gradient-to-br from-pink-300 to-pink-200
+                   opacity-70">
+        </div>
+
+        <!-- Top Right Blue Square -->
+        <div
+            class="absolute right-24 -top-10
+                   w-44 h-44
+                   bg-gradient-to-br from-cyan-200 to-blue-200
+                   opacity-60">
+        </div>
+
+        <!-- Left Middle Purple Circle -->
+        <div
+            class="absolute left-6 top-[235px]
+                   w-40 h-40
+                   rounded-full
+                   bg-purple-300/60">
+        </div>
+
+        <!-- Left Bottom Pink Shape -->
+        <div
+            class="absolute -left-24 bottom-[-100px]
+                   w-[350px] h-[350px]
+                   rounded-full
+                   bg-pink-300/60">
+        </div>
+
+        <!-- Center Yellow Rectangle -->
+        <div
+            class="absolute left-1/2 top-[250px]
+                   -translate-x-1/2
+                   w-[380px] h-[235px]
+                   bg-gradient-to-r
+                   from-yellow-300/80
+                   via-orange-200/70
+                   to-pink-200/60">
+        </div>
+
+        <!-- Right Cyan Rectangle -->
+        <div
+            class="absolute right-20 top-[295px]
+                   w-40 h-40
+                   bg-gradient-to-br
+                   from-cyan-300/70
+                   to-blue-300/50">
+        </div>
+
+        <!-- Bottom Right Blue Shape -->
+        <div
+            class="absolute right-10 bottom-[-50px]
+                   w-60 h-60
+                   bg-blue-300/40">
+        </div>
+
+
+        <!-- ================= MAIN CONTENT ================= -->
+
+        <div class="relative z-10 flex flex-col items-center">
+
+
+            <!-- Small Line -->
+            <div
+                class="w-14 h-1
+                       rounded-full
+                       bg-gradient-to-r
+                       from-purple-500 to-indigo-500
+                       mb-4">
+            </div>
+
+
+            <!-- Heading -->
+            <h1
+                class="text-2xl md:text-3xl
+                       font-semibold
+                       text-indigo-950">
+                Sign up for the webinar
+            </h1>
+
+
+            <!-- Date -->
+            <p
+                class="mt-3
+                       text-xs md:text-sm
+                       font-medium
+                       text-indigo-900">
+
+                Let's meet on
+                <span class="text-red-400 font-bold">
+                    February 12 at 2:00 pm
+                </span>
+
+            </p>
+
+
+            <!-- ONLINE -->
+            <div
+                class="mt-4
+                       flex items-center
+                       gap-2
+                       text-xs
+                       font-medium
+                       text-indigo-500">
+
+                <span>ONLINE</span>
+
+                <!-- Monitor Icon -->
+                <div
+                    class="w-5 h-4
+                           border-2
+                           border-indigo-300
+                           relative">
+
+                    <div
+                        class="absolute
+                               left-1/2
+                               -bottom-2
+                               -translate-x-1/2
+                               w-3 h-1
+                               bg-indigo-300">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= COUNTDOWN ================= -->
+
+            <p
+                class="mt-10
+                       text-sm
+                       font-medium
+                       text-indigo-950">
+
+                The webinar will start in:
+            </p>
+
+
+            <div
+                class="mt-4
+                       flex gap-3 md:gap-4
+                       text-center">
+
+                <!-- Days -->
+                <div>
+                    <div
+                        class="w-9 h-9 md:w-10 md:h-10
+                               rounded-full
+                               bg-indigo-950
+                               text-white
+                               flex items-center justify-center
+                               text-sm font-semibold">
+
+                        00
+
+                    </div>
+
+                    <span
+                        class="text-[8px]
+                               text-indigo-900">
+                        DAYS
+                    </span>
+                </div>
+
+
+                <!-- Hours -->
+                <div>
+                    <div
+                        class="w-9 h-9 md:w-10 md:h-10
+                               rounded-full
+                               bg-indigo-950
+                               text-white
+                               flex items-center justify-center
+                               text-sm font-semibold">
+
+                        00
+
+                    </div>
+
+                    <span
+                        class="text-[8px]
+                               text-indigo-900">
+                        HOURS
+                    </span>
+                </div>
+
+
+                <!-- Minutes -->
+                <div>
+                    <div
+                        class="w-9 h-9 md:w-10 md:h-10
+                               rounded-full
+                               bg-indigo-950
+                               text-white
+                               flex items-center justify-center
+                               text-sm font-semibold">
+
+                        00
+
+                    </div>
+
+                    <span
+                        class="text-[8px]
+                               text-indigo-900">
+                        MINUTES
+                    </span>
+                </div>
+
+
+                <!-- Seconds -->
+                <div>
+                    <div
+                        class="w-9 h-9 md:w-10 md:h-10
+                               rounded-full
+                               bg-indigo-950
+                               text-white
+                               flex items-center justify-center
+                               text-sm font-semibold">
+
+                        00
+
+                    </div>
+
+                    <span
+                        class="text-[8px]
+                               text-indigo-900">
+                        SECONDS
+                    </span>
+                </div>
+
+            </div>
+
+
+
+            <!-- ================= FORM ================= -->
+
+            <div
+                class="relative
+                       mt-7
+                       w-[350px]
+                       h-[350px]
+                       bg-white
+                       rounded-lg
+                       shadow-xl
+                       px-4 py-5">
+
+
+                <!-- Cyan Bubble -->
+                <div
+                    class="absolute
+                           -left-10 top-0
+                           w-9 h-9
+                           rounded-full
+                           bg-gradient-to-br
+                           from-cyan-300 to-blue-400
+                           shadow-md">
+                </div>
+
+
+                <!-- Name -->
+                <input
+                    type="text"
+                    placeholder="Your Name"
+                    class="w-full
+                           border-b-2
+                           border-gray-200
+                           outline-none
+                           py-2
+                           text-xl
+                           text-gray-600
+                           placeholder-gray-400
+                           focus:border-purple-400
+                           transition">
+
+
+                <!-- Email -->
+                <input
+                    type="email"
+                    placeholder="Email"
+                    class="w-full
+                           border-b-2
+                           border-gray-200
+                           outline-none
+                           py-2
+                           text-xl
+                           text-gray-600
+                           placeholder-gray-400
+                           focus:border-purple-400
+                           transition">
+
+
+                <!-- Select -->
+                <select
+                    class="w-full
+                           border-b-2
+                           border-gray-200
+                           outline-none
+                           py-2
+                           text-xl
+                           text-gray-500
+                           bg-white">
+
+                    <option>Online</option>
+                    <option>Offline</option>
+
+                </select>
+
+
+                <!-- Phone -->
+                <input
+                    type="text"
+                    placeholder="Phone Number"
+                    class="w-full
+                           border-b-2
+                           border-gray-200
+                           outline-none
+                           py-2
+                           text-xl
+                           text-gray-600
+                           placeholder-gray-400
+                           focus:border-purple-400
+                           transition">
+
+
+                <!-- Checkbox -->
+                <label
+                    class="flex items-center gap-2
+                           mt-3
+                           text-xl
+                           text-gray-500">
+
+                    <input
+                        type="checkbox"
+                        class="w-3 h-3">
+
+                    <span>
+                        I agree to the terms
+                    </span>
+
+                </label>
+
+
+                <!-- Button -->
+                <button
+                    type="button"
+                    class="mt-3
+                           w-full
+                           py-2.5
+                           bg-gradient-to-r
+                           from-purple-500
+                           to-indigo-500
+                           text-white
+                           text-sm
+                           font-medium
+                           rounded-sm
+                           hover:scale-[1.02]
+                           transition duration-300">
+
+                    Register Now!
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+</body>
+</html>
